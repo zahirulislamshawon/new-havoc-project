@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+      @apply font-Inter font-semibold text-base leading-5 text-[#000000] hover:bg-[#019B36] hover:text-white py-2 px-2 duration-200 rounded-sm;
+    }
+
+    .btn-reverse {
+        @apply font-Inter font-semibold text-[12px] leading-4 text-[#000000] bg-[#019B36] py-3 px-4 text-center;
+      }
+  }
